@@ -9,7 +9,7 @@ const fileTypesList = ["html", "css", "js"];
 async function main() {
   await fs.promises.mkdir(backupDir, { recursive: true });
 
-  for (let page = 0; ; page++) {
+  for (let page = 1; ; page++) {
     const penList = await (await fetch(endpoint + page)).json();
     if (!penList.data) break;
 
