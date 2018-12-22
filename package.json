@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "codepen-backup": "node -r esm src/codepen-backup.js",
+    "github-backup": "node -r esm src/github-backup.js"
+  },
+  "dependencies": {
+    "esm": "^3.0.84",
+    "node-fetch": "^2.3.0",
+    "shelljs-exec-proxy": "^0.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  },
+  "prettier": {
+    "trailingComma": "all"
+  }
+}
