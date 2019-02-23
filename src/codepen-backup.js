@@ -18,7 +18,7 @@ async function main() {
       for (const fileType of fileTypesList) {
         const data = await (await fetch(`${pen.link}.${fileType}`)).buffer();
         await fs.promises.writeFile(
-          `${backupDir}/${pen.title}.${fileType}`,
+          `${backupDir}/${pen.title}---${pen.id}.${fileType}`,
           data,
         );
       }
