@@ -1,7 +1,7 @@
 {
   "scripts": {
     "codepen-backup": "node -r esm src/codepen-backup.js",
-    "github-backup": "node -r esm src/github-backup.js"
+    "github-backup": "node src/github-backup.js"
   },
   "dependencies": {
     "esm": "^3.0.84",
