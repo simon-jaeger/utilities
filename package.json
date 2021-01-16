@@ -6,7 +6,7 @@
   "dependencies": {
     "esm": "^3.0.84",
     "md5": "2.3.0",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^2.6.1",
     "shelljs": "0.8.4",
     "shelljs-exec-proxy": "^0.1.1"
   },
